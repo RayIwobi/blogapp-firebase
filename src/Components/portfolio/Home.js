@@ -11,7 +11,7 @@ import login from './assets/login.jpg'
 import productlisting from './assets/productlisting.jpg'
 import {useState, useEffect} from 'react'
 import axios from 'axios'
-import MyExperience from './MyExperience'
+import blogapp from './assets/blogapp.jpg'
 
 function Home() {
     const [layer, setLayer] = useState([])
@@ -123,12 +123,12 @@ function Home() {
                     </div>
                 </div>
                <div className='dox'>
-                    <img src={image1} alt='' style={{width:'650px', height:'300px', margin:'10px'}} />
-                    <h3 style={{fontWeight:'700'}}>Real-Time Chat App (with Firebase)</h3>
-                    <h4 style={{width:'650px', lineHeight:'1.6'}}>Chat App is a real-time messaging platform that allows users to sign in, send, and receive messages instantly.
-                    It features secure authentication and dynamic chat updates across users.
-                    Built with React, Firebase (Firestore & Auth), react-router-dom for routing, and styled with CSS.
-                    Firebase handles real-time data sync, user auth, and message storage efficiently.</h4> <br/>
+                    <img src={blogapp} alt='' style={{width:'650px', height:'300px', margin:'10px'}} />
+                    <h3 style={{fontWeight:'700'}}>Blog App (with Firebase)</h3>
+                    <h4 style={{width:'650px', lineHeight:'1.6'}}>Blog App is a full-featured platform where users can create, read, and manage blog posts with secure login.
+                    It supports Google Authentication and real-time blog data updates.
+                    Built with React, using react-router-dom for routing and CSS for styling.
+                    Powered by Firebase for Google Auth, Firestore database, and data persistence.</h4> <br/>
                     <div className='cani'>
                         <Link><img src={github} alt='' style={{width:'20px', height:'20px'}} />Github</Link>
                         <Link><img src={web} alt='' style={{width:'20px', height:'20px'}} />Live website</Link>
