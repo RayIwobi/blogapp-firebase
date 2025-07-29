@@ -1,25 +1,26 @@
-import './App.css';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import CalculatorNav from './Components/CalculatorNav';
-import Calculator from './Components/Calculator';
-import Lottie from 'lottie-react'
-import animo from './Components/assets/animo.json'
-import Notie from './Components/Notie'
-
-
+import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import Home from './Components/portfolio/Home';
+import Projects from './Components/portfolio/Projects';
+import About from './Components/portfolio/About';
+import Contact from './Components/portfolio/Contact';
+// import LoadMore from './Components/loadmoretest/LoadMore';
+import ScrollToTop from './Components/portfolio/ScrollToTop'
+import Navigation from './Components/portfolio/Navigation';
+import MyExperience from './Components/portfolio/MyExperience';
 
 function App() {
   return (
     <>
     <Router>
-    
-      <CalculatorNav />
-      <Notie/>
+      <ScrollToTop />
+      <Navigation/>
       <Routes>
-        <Route path='/' element={<Calculator />} />
+        <Route path='/' element={<Home/>}/>
+        <Route path='/experience' element={<MyExperience/>}/>
+        <Route path='/projects' element={<Projects/>}/>
+        <Route path='/About' element={<About/>}/>
+        <Route path='/contact' element={<Contact/>}/>
       </Routes>
-      <Lottie animationData={animo} style={{width:'300px', height:'300px'}} />
-      
     </Router>
     </>
   );

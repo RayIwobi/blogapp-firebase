@@ -1,0 +1,446 @@
+body{
+    background-color: rgb(248, 245, 245);
+    margin-left: 120px;
+    margin-right: 120px;   
+}
+
+.ray{
+    font-size: 21px;
+    font-weight: 700;
+    color: rgb(17, 17, 65);
+}
+.top-navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top-links{
+    width: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top-links a{
+    text-decoration: none;
+    color: rgb(17, 17, 97);
+}
+.top-links a:hover{
+    transform: translateY(-2px);
+    color: rgb(139, 139, 211);
+}
+
+
+
+.name-image{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top:70px;
+}
+
+.writeup{
+    width: 700px;
+    text-align: left;
+}
+
+.name-image h2{
+    font-family:'Libre Baskerville';
+    font-size: 20px
+}
+
+.name-image p{
+    font-size: 23px;
+    width: 450px;
+}
+
+span{
+    font-size: 50px;
+    color: blue;
+}
+
+.name-image h4{
+    font-family:'Libre Baskerville';
+    font-size: 20px;
+    font-weight:200;
+}
+
+
+.buttons{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.getintouch{
+    width:120px;
+    height: 40px;
+    background-color: rgb(156, 65, 221);
+    color: white;
+    font-family:'Libre Baskerville';
+    font-weight:700;
+    border: none;
+    border-radius:10px;
+    cursor: pointer;
+}
+
+.getintouch:hover{
+    background-color: rgb(15, 35, 132);
+}
+
+.browseproject{
+    width:160px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    font-family:'Libre Baskerville';
+    font-weight:700;
+    border: none;
+    border-radius:10px;
+    cursor: pointer;
+}
+
+.browseproject:hover{
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.rayicon{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    border: 1px solid gray;
+    padding: 20px;
+    background-color: #faf7e0;
+    transition: background-color 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.rayicon:hover{
+    background-color: #faeb89;
+}
+
+.projects-corner{
+    margin-top: 180px;
+    margin-bottom: 80px;
+}
+
+#x2{
+    font-size: 40px;
+}
+
+.projectDisplays{
+    display: block;
+}
+
+.dox h3, h4{
+    margin-left: 10px;
+}
+
+
+.cam{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cam h3, h4{
+    width: 500px;
+    font-family:'Libre Baskerville';
+    font-weight:200;
+}
+
+.dox{
+    margin-bottom: 10px;
+}
+
+.dox img{
+   border-radius: 10px;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.dox img:hover{
+    background-color: black;
+    filter: brightness(90%);
+    transform:translateY(-5px);
+    transition: 0.3s ease-in-out;
+}
+
+.cani{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -10px;
+    margin-bottom: 40px;
+    margin-left: 10px;
+}
+.cani a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.skills-container{
+    max-width:200px;
+    display: block;
+}
+
+.skillset{
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.mystory{
+    margin-top: 70px;
+    text-align: justify;
+}
+
+.mystory h2{
+    font-size: 40px;
+}
+
+.mystory div{
+    font-size: 20px;
+    font-weight:100;
+    line-height: 30px;
+}
+
+.baselink-container{
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.baseicone{
+    width: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.baseicone img{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.baseicone img:hover{
+    transform: translateY(-2px);
+    background-color: antiquewhite;
+}
+
+.baseinfo{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    margin-top: 70px;
+}
+
+.footerinfo h4{
+    width: 250px;
+}
+
+/* About me */
+/* general styling from homepage */
+
+.aboutme{
+    margin-top: 150px;
+}
+
+.aboutme h3{
+    font-size: 40px;
+    font-weight: 700;
+    color: black;
+    margin-bottom: 100px;
+}
+
+.straightline{
+    background-color: blue;
+    width: 15px;
+    height: 80px;
+    
+}
+
+.under-aboutme{
+    display: flex;
+    margin-top: -80px;
+}
+
+.aboutme p{
+    margin-top: -5px;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 30px;
+    text-align: justify;
+}
+
+/* my stack design area -----*/
+.stack-container p{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.the-design{
+    margin-top: 100px;
+    margin-bottom: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.yellow-circle{
+    position:relative;
+    background-color: #ffdb00;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    opacity: 80%;
+    margin-top: -100px;
+    margin-left: 120px;
+    background-image: linear-gradient(to right, rgb(228, 164, 15) 20%, #ffdb00 80%);
+}
+
+.yellow-square{
+    position:absolute;
+    /* background-image: linear-gradient(to right, #ffdb00 85%, #ffdb00 10%); */
+    background-color: #ffdb00;
+    width: 400px;
+    height: 400px;
+    opacity: 85%;
+}
+
+.writeupblock{
+    position:absolute;
+    display: flex;
+    margin-left: 10px;
+}
+
+.mystack{
+    width: 293px;
+    height: 300px;
+    border: 1px solid black;
+    padding: 10px;
+    transition: background-color 0.6s ease-in-out, transform 0.6s ease-in-out;
+}
+
+.mystack:hover{
+    background-color: black; 
+    transform: scale(1.05);
+    color: white;
+    opacity: 70%;
+    overflow: hidden;
+}
+
+.mystack p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+ul{
+    line-height: 35px;
+}
+
+ul li{
+    font-weight: 500;
+}
+
+.contact-info{
+    line-height: 30px;
+    font-size: 19px;
+}
+
+#more{
+    text-decoration: none;
+    font-style: italic;
+}
+
+/* -----------Projects------------- */
+
+.projecttitle h3{
+    font-size: 40px;
+    font-weight: 700;
+    color: black;
+    margin-top: 150px;
+    margin-bottom: -150px;
+    padding-left: 10px;
+}
+
+.project-line{
+    width: 15px;
+    height: 80px;
+    background-color: rgb(12, 12, 231);
+    margin-top: 105px;
+    margin-left: 10px;
+}
+
+.project-text{
+    display: flex;
+    align-items: center;
+    margin-bottom: -150px;
+}
+
+.project-text p{
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 30px;
+    text-align: justify;
+    margin-top: 150px;
+}
+
+.hidden-info summary{
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: p 0.3s ease-in-out;
+}
+
+.hidden-info summary::after{
+    background-color:blue;
+    transition: ease-in-out 0.3s;
+}
+
+/* ------MY EXPERIENCE SECTION----------- */
+
+.experience-container{
+    max-width: 1300px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+#experience{
+    margin-top: 150px;
+}
+
+.year-section{
+    width: 300px;
+    background-color: #ffdb00;
+    padding: 15px;
+    margin-right: 30px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.first-year{
+    padding-bottom: 1080px;
+}
+
+.ex-content{
+    display: flex;
+    align-items: center;
+}
+
+.secudus{
+    font-size: 18px;
+    gap: 10px;
+}
+
+.secudus li{
+    padding: 10px;
+}
